@@ -1,45 +1,28 @@
 
-# AI Voice Assistant
+# Face Recognition Attendance System
 
-A modern GUI-based AI Voice Assistant built using Python and CustomTkinter.
+A Python-based face recognition attendance system using OpenCV and LBPH algorithm.
 
 ## Features
-
-- Voice Recognition
-- Voice Response
-- Google Search
-- YouTube Search
-- Play Music
-- Dark Mode GUI
-- Live Clock
-- Modern Buttons
-- Scrollable Chat Window
+- Face registration
+- Face recognition
+- Automatic attendance
+- GUI interface
+- Duplicate prevention
 
 ## Technologies Used
-
 - Python
-- CustomTkinter
-- SpeechRecognition
-- pyttsx3
-- pywhatkit
-- Wikipedia API
+- OpenCV
+- Tkinter
+- NumPy
 
-## Installation
+## How to Run
 
-pip install -r requirements.txt
+1. Register faces
+python capture.py
 
-## Run Project
-python gui.py
+2. Train model
+python train.py
 
-## Commands
-
-- hello
-- time
-- date
-- open google
-- open youtube
-- search google python
-- search youtube ai tools
-- play music perfect
-- who is Elon Musk
-- stop
+3. Start attendance system
+python main_gui.py
